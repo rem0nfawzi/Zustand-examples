@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Basic from "./components/1-basic/Basic";
+import Shallow from "./components/2-shallow/Shallow";
+import Async from "./components/3-async/Async";
+import RefState from "./components/4-ref-state/RefState";
+import Persist from "./components/5-persist/Persist";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return <Basic />;
+  // return <Shallow />;
+  // return <Async />;
+  // return <RefState />;
+  return <Persist />;
 }
 
 export default App;
